@@ -174,3 +174,33 @@ $response;
 
 
 ```
+
+### Hub Name
+
+```json
+
+{
+  "version": "2.0",
+  "extensions": {
+    "durableTask": {
+      "hubName": "MyTaskHub"
+    }
+  }
+}
+
+```
+
+> Dynamic name
+
+```json
+
+{
+  "version": "2.0",
+  "extensions": {
+    "durableTask": {
+      "hubName": "%MyTaskHub%"
+    }
+  }
+}
+
+```
